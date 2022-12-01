@@ -1,0 +1,17 @@
+@import url('./modules/variables.css');
+@import url('./modules/utils.css');
+@import url('./modules/animations.css');
+@import url('./modules/layout.css');
+@import url('./modules/list.css');
+
+.body {
+  background-image: 
+    linear-gradient(
+      var(--primary-theme-color),
+      var(--secondary-theme-color),
+      var(--tertiary-theme-color)
+    );
+  color: var(--primary-text-color);
+  font-family: var(--primary-font-family);
+  margin: 0;
+}

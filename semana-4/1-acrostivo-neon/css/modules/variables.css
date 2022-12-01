@@ -1,0 +1,22 @@
+:root {
+  scroll-behavior: smooth;
+
+  --primary-theme-color: rgb(17, 24, 39);
+  --secondary-theme-color: rgb(88, 28, 135);
+  --tertiary-theme-color: rgb(88, 28, 135);
+  --primary-text-color: #fff;
+  --primary-highlight-color: #61dafb;
+
+  --letter-color-1: #bef264; 
+  --letter-color-2: #0ea5e9; 
+  --letter-color-3: #fdba74; 
+  --letter-color-4: #3b82f6; 
+  --letter-color-5: #f97316; 
+  --letter-color-6: #ef4444; 
+
+  --primary-font-family: 'Inconsolata', monospace;
+  --max-width-container: 1024px;
+  --padding-section: 1.5rem;
+  --padding-container: 1rem;
+  --primary-border-radius: 0.5rem;
+}

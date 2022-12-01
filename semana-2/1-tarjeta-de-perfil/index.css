@@ -1,0 +1,109 @@
+:root {
+  --primary-theme-color: #dea;
+  --primary-shadow-color: rgba(0, 0, 0, .8);
+  --secondary-shadow-color: rgba(0, 0, 0, .8);
+  --primary-text-color: #fff;
+  --primary-highlight-color: #afe;
+  --primary-font-family: monospace;
+}
+
+.body {
+  background-color: var(--primary-shadow-color);
+  color: var(--primary-text-color);
+  font-family: var(--primary-font-family);
+  margin: 0;
+}
+
+.hero {
+  background-image: url(https://images.pexels.com/photos/268976/pexels-photo-268976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.card {
+  border: 0.125rem solid var(--primary-highlight-color);
+  border-radius: 1rem;
+  max-width: 320px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.card:hover {
+  border: 0.125rem solid var(--primary-highlight-color);
+}
+
+.card__header {
+  background-color: var(--primary-shadow-color);
+  text-align: center;
+  padding: 1rem;
+}
+
+.card__img {
+  background-color: var(--primary-theme-color);
+  border-radius: 50%;
+  width: min(100%, 256px);
+  height: 256px;
+  object-fit: cover;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: var(--secondary-shadow-color);
+  padding: 1rem;
+}
+
+.card__title {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.card__subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.card__text {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 0;
+}
+
+.card__text::before {
+  content: '🇵🇪';
+}
+
+.card__text::after {
+  content: '😀';
+}
+
+/* .box-container {
+  display: flex;
+}
+
+.box-element {
+  border: 2px solid yellowgreen;
+  background-color: red;
+  width: 32px;
+  height: 32px;
+} */
+
+.card__footer {
+  background-color: var(--secondary-shadow-color);
+  text-align: center;
+  padding: 1rem;
+ 
+}
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+ 
+}
